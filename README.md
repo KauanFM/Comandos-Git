@@ -25,7 +25,7 @@ git init (Inicia um repositório Git localmente)
 git add . (Prepara todas as alterações feitas nos arquivos para commit)
 git add nome-do-arquivo (Prepara apenas um arquivo específico para commit)
 git commit -m "primeiro commit" (Commit as alterações realizadas no projeto)
-//**-m "primeiro commit"**: criando o nome para o commit
+//-m "primeiro commit": criando o nome para o commit
 ```
 
 <h3 align="center">Status atual da sua ramificação no projeto (Branch)</h3> <br>
@@ -38,7 +38,7 @@ git status (Retorna a branch atual e qual o estado da nossa branch)
 
 ```
 git log (Histórico de commits, autores, data, nome do commit e código Hash do commit)
-git diff (Mostra as **diferenças** de alterações na branch)
+git diff (Mostra as diferenças de alterações na branch)
 ```
 
 <h3 align="center">Descartar alterações</h3> <br>
@@ -53,8 +53,8 @@ git restore nome-do-arquivo (Remove as modificações atuais feitas)
 git branch (Retorna a branch atual do projeto)
 git checkout -b nome-da-branch (Cria uma nova branch para novas alterações)
 git checkout master/main (retorna a branch principal do sistema)
-//**checkout**: saindo da branch atual (pode ser usada para retornar a branch anterior)
-//**-b nome-da-minha-branch**: criando uma nova Branch
+//checkout: saindo da branch atual (pode ser usada para retornar a branch anterior)
+//-b nome-da-minha-branch: criando uma nova Branch
 ```
 
 <h3 align="center">Mesclar alterações entre branches (Merge)</h3> <br>
